@@ -18,7 +18,7 @@ import urllib.request
 from pathlib import Path
 
 LOGIN = "LibertychaserUS"
-W, H = 980, 240
+W, H = 980, 262
 MARGIN, TOP = 36, 84
 CELL, GAP = 14.0, 3.2
 MONO = "ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, monospace"
@@ -87,7 +87,7 @@ def render(cal: dict, t: dict, day: dt.date) -> str:
     # weekday ticks and legend
     for wd, lab in [(1, "MON"), (3, "WED"), (5, "FRI")]:
         o.append(f'<text x="{MARGIN - 6}" y="{TOP + wd*pitch + CELL - 3:.1f}" font-size="8" fill="{t["soft"]}" text-anchor="end" letter-spacing="0.5">{lab}</text>')
-    ly = TOP + 7 * pitch + 10
+    ly = TOP + 7 * pitch + 18
     lx = W - MARGIN - (5 * pitch - GAP) - 62
     o.append(f'<text x="{lx - 8}" y="{ly + 11}" font-size="9" fill="{t["soft"]}" text-anchor="end">LESS</text>')
     for k, c in enumerate([t["empty"]] + t["levels"]):

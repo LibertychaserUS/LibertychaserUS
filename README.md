@@ -34,47 +34,47 @@
 <table>
   <tbody>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/caging-engineering"><img src="./assets/icons/caging.svg" width="40" height="40" alt="caging-engineering" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/caging-engineering"><img src="./assets/icons/caging.svg" width="56" height="56" alt="caging-engineering" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/caging-engineering"><strong>caging-engineering</strong></a></td>
       <td valign="top">An agent is not a mind to instruct but a space to shape. The cage is not a wall around it; it is the geometry of what can happen next. Goals stay reachable, unsafe states become unreachable, and paths that failed are pruned after the fact rather than forbidden in advance.<br/><em>Freedom is what remains once the boundary is drawn.</em></td>
     </tr>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/Terra"><img src="./assets/icons/terra.svg" width="40" height="40" alt="Terra" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/Terra"><img src="./assets/icons/terra.svg" width="56" height="56" alt="Terra" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/Terra"><strong>Terra</strong></a></td>
       <td valign="top">Caging taken literally, as a runtime. Nothing the model wants happens until it has passed through something that cannot be persuaded. Memory has owners and levels, because knowledge anyone may overwrite is not knowledge. Every action leaves a trace that outlives the conversation.<br/><em>Efficiency is intelligence.</em></td>
     </tr>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/AIOps"><img src="./assets/icons/aiops.svg" width="40" height="40" alt="AIOps" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/AIOps"><img src="./assets/icons/aiops.svg" width="56" height="56" alt="AIOps" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/AIOps"><strong>AIOps</strong></a></td>
       <td valign="top">The gate belongs to the repository, not to whoever is pushing. Forge decides who may touch a protected branch; Overlay turns requirements into tests that can be read before they are run. Machines may propose, review and fail loudly. Only a person merges.<br/><em>Fail closed. Never self-merge.</em></td>
     </tr>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/OfficeX-an-AI-agents-for-doc"><img src="./assets/icons/officex.svg" width="40" height="40" alt="OfficeX" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/OfficeX-an-AI-agents-for-doc"><img src="./assets/icons/officex.svg" width="56" height="56" alt="OfficeX" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/OfficeX-an-AI-agents-for-doc"><strong>OfficeX</strong></a></td>
       <td valign="top">The intelligent part finishes thinking; this is the part that makes the document true. It does not try to be clever. It executes exactly, then looks at the result three ways: as structure, as a page, as meaning. Errors invisible in text are made visible before anyone reads.<br/><em>Correctness is not an opinion the model holds.</em></td>
     </tr>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/microfluidic-native-physics"><img src="./assets/icons/microfluidic.svg" width="40" height="40" alt="microfluidic-native-physics" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/microfluidic-native-physics"><img src="./assets/icons/microfluidic.svg" width="56" height="56" alt="microfluidic-native-physics" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/microfluidic-native-physics"><strong>microfluidic-native-physics</strong></a></td>
       <td valign="top">Hold out an entire chemistry, seal the labels, and let the model fail in public. The negative result stays in the record, because a record that remembers only success is not a record. Every claim arrives with a table of what it is not allowed to mean.<br/><em>Thresholds before data. Negative results stay.</em></td>
     </tr>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/world-cellular-automata"><img src="./assets/icons/wca.svg" width="40" height="40" alt="world-cellular-automata" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/world-cellular-automata"><img src="./assets/icons/wca.svg" width="56" height="56" alt="world-cellular-automata" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/world-cellular-automata"><strong>world-cellular-automata</strong></a></td>
       <td valign="top">The world as a state that rewrites itself. Each node opens into a local world, evolves by pairwise interaction, and collapses back into the next state. The baseline is protected, the evaluation is strict, and the <a href="https://doi.org/10.5281/zenodo.21085154">report</a> is archived where it cannot be quietly revised.<br/><em>A prediction is a claim about the next state, nothing more.</em></td>
     </tr>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/bsaa-gaokao-theory"><img src="./assets/icons/bsaa.svg" width="40" height="40" alt="bsaa-gaokao-theory" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/bsaa-gaokao-theory"><img src="./assets/icons/bsaa.svg" width="56" height="56" alt="bsaa-gaokao-theory" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/bsaa-gaokao-theory"><strong>bsaa-gaokao-theory</strong></a></td>
       <td valign="top">Choosing under admission uncertainty, treated as a submodular problem. The theory lives in a repository of its own so the mathematics can be judged apart from the product. What the greedy rule guarantees is proved, and the proof is re-checked by a kernel that cannot be flattered.<br/><em>Proved, then checked by something that does not argue.</em></td>
     </tr>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/robot-pm"><img src="./assets/icons/robot-pm.svg" width="40" height="40" alt="robot-pm" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/robot-pm"><img src="./assets/icons/robot-pm.svg" width="56" height="56" alt="robot-pm" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/robot-pm"><strong>robot-pm</strong></a></td>
       <td valign="top">A project assistant that does less than it could. It checks what exists before it creates anything, prints the name of what is missing and never its value, and calls no meeting without the group's consent. Time is Beijing time.<br/><em>Consent before action. Presence before creation.</em></td>
     </tr>
     <tr>
-      <td width="56" align="center" valign="top"><a href="https://github.com/LibertychaserUS/100-journeys"><img src="./assets/icons/journeys.svg" width="40" height="40" alt="100-journeys" /></a></td>
+      <td width="76" align="center" valign="top"><a href="https://github.com/LibertychaserUS/100-journeys"><img src="./assets/icons/journeys.svg" width="56" height="56" alt="100-journeys" /></a></td>
       <td width="190" valign="top"><a href="https://github.com/LibertychaserUS/100-journeys"><strong>100-journeys</strong></a></td>
       <td valign="top">A hundred doors, each opening on its own hour. The one project here that is about how a thing feels, made with the same care as the ones about whether it holds.<br/><em>the door opens in its own shape; open doors keep their light.</em></td>
     </tr>
