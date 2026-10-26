@@ -2,14 +2,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-v2-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-v2.svg" />
-    <img alt="Oliver Zhang (Zhiyuan Zhang) — The Board, The Cage, The Kernel, and A Hundred Doors" src="./assets/banner-v2.svg" width="100%" />
+    <img alt="Oliver Zhang — The Board, The Cage, The Kernel, and A Hundred Doors" src="./assets/banner-v2.svg" width="100%" />
   </picture>
 </p>
 
-**Oliver Zhang (Zhiyuan Zhang)** · London / Suzhou / Shenzhen · Account opened 2025.04 · 640 contributions in the last 12 months · Plays chess off-duty.
+**Oliver Zhang** · London / Suzhou / Shenzhen · Account opened 2025.04 · 640 contributions in the last 12 months · Plays chess off-duty.
 
 > Keep goals reachable, make unsafe states unreachable, and prune invalid paths after verification.  
-> 探针只检查在不在。缺了就在标准错误里写出变量名。
+> 裁决先于相信，阈值先于数据。
 
 <p align="center">
   <picture>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" role="img" aria-label="Oliver Zhang (Zhiyuan Zhang) — The Board, The Cage, The Kernel, and A Hundred Doors">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" role="img" aria-label="Oliver Zhang — The Board, The Cage, The Kernel, and A Hundred Doors">
   <defs>
     <filter id="sketch-v2-dark" x="-2%" y="-2%" width="104%" height="104%">
       <feTurbulence type="fractalNoise" baseFrequency="0.038" numOctaves="3" seed="23" result="noise"/>
@@ -30,7 +30,7 @@
 
   <g transform="translate(36, 42)">
     <text x="0" y="0" class="v2-name">OLIVER ZHANG</text>
-    <text x="0" y="20" class="v2-sub">Zhiyuan Zhang · LibertychaserUS</text>
+    <text x="0" y="20" class="v2-sub">github.com/LibertychaserUS</text>
     <text x="0" y="42" class="v2-note">London · Suzhou · Shenzhen</text>
     <text x="0" y="58" class="v2-note">2025.04 — present · 641 contributions (12m)</text>
 
@@ -62,7 +62,7 @@
       <text x="0" y="0" class="v2-liter">“Keep goals reachable, make unsafe</text>
       <text x="0" y="18" class="v2-liter">states unreachable, and prune invalid</text>
       <text x="0" y="36" class="v2-liter">paths after verification.”</text>
-      <text x="0" y="66" class="v2-zh">智能负责提案，不会说话的东西负责裁决。</text>
+      <text x="0" y="66" class="v2-zh">先划边界，再谈自由。</text>
       <text x="0" y="88" class="v2-note">the door opens in its own shape;</text>
       <text x="0" y="103" class="v2-note">open doors keep their light.</text>
     </g>
