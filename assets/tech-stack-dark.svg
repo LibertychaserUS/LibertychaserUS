@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 132" width="100%" height="100%" role="img" aria-label="Tech Stack: C++ · CUDA · MLIR · Rust · Python · Lean 4 · TypeScript · Go">
+  <defs>
+    <filter id="tile-ink-dark" x="-2%" y="-2%" width="104%" height="104%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="9" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.55" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <style>
+      .stack-name { font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, monospace; font-size: 12.5px; font-weight: 700; fill: #EAE4D7; letter-spacing: 0.6px; }
+      .stack-sub  { font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, monospace; font-size: 9.5px; fill: #9A9386; letter-spacing: 0.3px; }
+      .glyph-mono { font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, monospace; font-weight: 700; fill: #EAE4D7; }
+    </style>
+  </defs>
+
+  <!-- 1. C++ -->
+  <g transform="translate(8, 6)">
+    <rect width="136" height="120" rx="6" fill="#181715" stroke="#8C8577" stroke-width="1.1"/>
+    <g transform="translate(68, 44)" filter="url(#tile-ink-dark)">
+      <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="#22201C" stroke="#DED7C8" stroke-width="1.5"/>
+      <text x="-14" y="6" class="glyph-mono" font-size="17">C</text>
+      <g stroke="#D96B5C" stroke-width="1.8" stroke-linecap="round">
+        <line x1="2" y1="0" x2="10" y2="0"/><line x1="6" y1="-4" x2="6" y2="4"/>
+        <line x1="13" y1="0" x2="21" y2="0"/><line x1="17" y1="-4" x2="17" y2="4"/>
+      </g>
+    </g>
+    <text x="68" y="94" text-anchor="middle" class="stack-name">C++</text>
+    <text x="68" y="109" text-anchor="middle" class="stack-sub">systems · codegen</text>
+  </g>
+
+  <!-- 2. CUDA -->
+  <g transform="translate(158, 6)">
+    <rect width="136" height="120" rx="6" fill="#181715" stroke="#8C8577" stroke-width="1.1"/>
+    <g transform="translate(44, 18)" filter="url(#tile-ink-dark)">
+      <rect x="0" y="0" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="0s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="17" y="0" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="0.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="34" y="0" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="1.0s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="17" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="0.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="17" y="17" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="1.0s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="34" y="17" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="34" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="1.0s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="17" y="34" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="34" y="34" width="13" height="13" rx="1.5" fill="#58A67C" stroke="#DED7C8" stroke-width="1">
+        <animate attributeName="fill-opacity" values="0.9;0.25;0.9" dur="4.5s" begin="2.0s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="68" y="94" text-anchor="middle" class="stack-name">CUDA</text>
+    <text x="68" y="109" text-anchor="middle" class="stack-sub">kernels · tilelang</text>
+  </g>
+
+  <!-- 3. MLIR -->
+  <g transform="translate(308, 6)">
+    <rect width="136" height="120" rx="6" fill="#181715" stroke="#8C8577" stroke-width="1.1"/>
+    <g transform="translate(68, 42)" filter="url(#tile-ink-dark)">
+      <rect x="-24" y="-24" width="48" height="11" rx="2" fill="#22201C" stroke="#DED7C8" stroke-width="1.3"/>
+      <rect x="-18" y="-5" width="36" height="11" rx="2" fill="#2A2722" stroke="#DED7C8" stroke-width="1.3"/>
+      <rect x="-12" y="14" width="24" height="11" rx="2" fill="#E5A93C" fill-opacity="0.3" stroke="#DED7C8" stroke-width="1.3"/>
+      <line x1="0" y1="-13" x2="0" y2="-5" stroke="#D96B5C" stroke-width="1.5"/>
+      <line x1="0" y1="6" x2="0" y2="14" stroke="#D96B5C" stroke-width="1.5"/>
+      <circle cx="0" cy="-19" r="2.2" fill="#D96B5C">
+        <animate attributeName="cy" values="-18;0;19;-18" keyTimes="0;0.45;0.9;1" dur="5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="68" y="94" text-anchor="middle" class="stack-name">MLIR</text>
+    <text x="68" y="109" text-anchor="middle" class="stack-sub">dialect lowering</text>
+  </g>
+
+  <!-- 4. Rust -->
+  <g transform="translate(458, 6)">
+    <rect width="136" height="120" rx="6" fill="#181715" stroke="#8C8577" stroke-width="1.1"/>
+    <g transform="translate(68, 43)" filter="url(#tile-ink-dark)">
+      <circle cx="0" cy="0" r="21" fill="#22201C" stroke="#DED7C8" stroke-width="1.7" stroke-dasharray="6 3"/>
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#DED7C8" stroke-width="1.3"/>
+      <text x="0" y="5" text-anchor="middle" class="glyph-mono" font-size="14">&amp;mut</text>
+    </g>
+    <text x="68" y="94" text-anchor="middle" class="stack-name">Rust</text>
+    <text x="68" y="109" text-anchor="middle" class="stack-sub">Terra · ownership</text>
+  </g>
+
+  <!-- 5. Python -->
+  <g transform="translate(608, 6)">
+    <rect width="136" height="120" rx="6" fill="#181715" stroke="#8C8577" stroke-width="1.1"/>
+    <g transform="translate(68, 43)" filter="url(#tile-ink-dark)">
+      <path d="M -14 -6 L -14 -16 C -14 -21, 10 -21, 10 -16 L 10 0 L -6 0 C -14 0, -18 5, -18 11 L -18 14" fill="none" stroke="#DED7C8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 14 6 L 14 16 C 14 21, -10 21, -10 16 L -10 0 L 6 0 C 14 0, 18 -5, 18 -11 L 18 -14" fill="none" stroke="#E5A93C" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="-6" cy="-14" r="1.8" fill="#DED7C8"/>
+      <circle cx="6" cy="14" r="1.8" fill="#E5A93C"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" class="stack-name">Python</text>
+    <text x="68" y="109" text-anchor="middle" class="stack-sub">compile_only · audit</text>
+  </g>
+
+  <!-- 6. Lean 4 -->
+  <g transform="translate(758, 6)">
+    <rect width="136" height="120" rx="6" fill="#181715" stroke="#8C8577" stroke-width="1.1"/>
+    <g transform="translate(68, 43)" filter="url(#tile-ink-dark)">
+      <rect x="-24" y="-22" width="48" height="44" rx="3" fill="#22201C" stroke="#D96B5C" stroke-width="1.6"/>
+      <text x="0" y="6" text-anchor="middle" class="glyph-mono" font-size="18" fill="#D96B5C">∀ ⊢</text>
+      <circle cx="17" cy="-15" r="2.5" fill="#D96B5C">
+        <animate attributeName="opacity" values="1;0.3;1" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="68" y="94" text-anchor="middle" class="stack-name">Lean 4</text>
+    <text x="68" y="109" text-anchor="middle" class="stack-sub">0 sorry · kernel</text>
+  </g>
+
+  <!-- 7. TypeScript -->
+  <g transform="translate(908, 6)">
+    <rect width="136" height="120" rx="6" fill="#181715" stroke="#8C8577" stroke-width="1.1"/>
+    <g transform="translate(68, 43)" filter="url(#tile-ink-dark)">
+      <rect x="-22" y="-22" width="44" height="44" rx="4" fill="#22201C" stroke="#DED7C8" stroke-width="1.5"/>
+      <text x="2" y="12" text-anchor="middle" class="glyph-mono" font-size="17">TS</text>
+      <line x1="-16" y1="-12" x2="16" y2="-12" stroke="#8C8577" stroke-width="0.8" stroke-dasharray="2 2"/>
+    </g>
+    <text x="68" y="94" text-anchor="middle" class="stack-name">TypeScript</text>
+    <text x="68" y="109" text-anchor="middle" class="stack-sub">Compiler Explorer · web</text>
+  </g>
+
+  <!-- 8. Go -->
+  <g transform="translate(1056, 6)">
+    <rect width="136" height="120" rx="6" fill="#181715" stroke="#8C8577" stroke-width="1.1"/>
+    <g transform="translate(68, 43)" filter="url(#tile-ink-dark)">
+      <rect x="-24" y="-20" width="48" height="40" rx="18" fill="#22201C" stroke="#DED7C8" stroke-width="1.5"/>
+      <text x="0" y="6" text-anchor="middle" class="glyph-mono" font-size="15">&lt;-go</text>
+    </g>
+    <text x="68" y="94" text-anchor="middle" class="stack-name">Go</text>
+    <text x="68" y="109" text-anchor="middle" class="stack-sub">infra · tooling</text>
+  </g>
+</svg>

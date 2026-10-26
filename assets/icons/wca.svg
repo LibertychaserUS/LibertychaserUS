@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="World Cellular Automata — Recursive State Prediction">
+  <rect x="3" y="3" width="42" height="42" rx="8" fill="#F5F1E8" stroke="#2B2925" stroke-width="1.5"/>
+  <!-- Rule 30 / Cellular Automaton pyramid -->
+  <g stroke="#1F1E1B" stroke-width="1.2">
+    <rect x="21" y="11" width="6" height="6" fill="#1F1E1B"/>
+    <rect x="15" y="17" width="6" height="6" fill="#1F1E1B"/>
+    <rect x="21" y="17" width="6" height="6" fill="#FAF7F0"/>
+    <rect x="27" y="17" width="6" height="6" fill="#1F1E1B"/>
+    <rect x="9" y="23" width="6" height="6" fill="#1F1E1B"/>
+    <rect x="15" y="23" width="6" height="6" fill="#FAF7F0"/>
+    <rect x="21" y="23" width="6" height="6" fill="#1F1E1B"/>
+    <rect x="27" y="23" width="6" height="6" fill="#FAF7F0"/>
+    <rect x="33" y="23" width="6" height="6" fill="#1F1E1B"/>
+    <!-- Recursive prediction row -->
+    <rect x="15" y="31" width="6" height="6" fill="#D9822B"/>
+    <rect x="21" y="31" width="6" height="6" fill="#FAF7F0"/>
+    <rect x="27" y="31" width="6" height="6" fill="#D9822B"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="BSAA Gaokao Theory — Lean 4 Gate">
+  <rect x="3" y="3" width="42" height="42" rx="8" fill="#F5F1E8" stroke="#2B2925" stroke-width="1.5"/>
+  <rect x="9" y="11" width="30" height="26" rx="3" fill="#FAF7F0" stroke="#B03A2E" stroke-width="1.5"/>
+  <!-- Turnstile ⊢ and zero-sorry check -->
+  <path d="M 16 17 L 16 31 M 16 24 L 24 24" fill="none" stroke="#B03A2E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 27 25 L 30 28 L 35 20" fill="none" stroke="#2E6B4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

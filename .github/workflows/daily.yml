@@ -1,0 +1,37 @@
+name: Daily banner
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read contributions for the last twelve months
+        id: contrib
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          n=$(gh api graphql -f query='{ user(login:"LibertychaserUS") { contributionsCollection { contributionCalendar { totalContributions } } } }' --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions' || true)
+          echo "count=${n}" >> "$GITHUB_OUTPUT"
+      - name: Turn the doors and stamp the count
+        env:
+          CONTRIBUTIONS_12M: ${{ steps.contrib.outputs.count }}
+        run: |
+          if [ -z "$CONTRIBUTIONS_12M" ]; then unset CONTRIBUTIONS_12M; fi
+          python scripts/update_banner.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --cached --quiet; then echo "No change today."; else git commit -m "chore: daily banner" && git push; fi

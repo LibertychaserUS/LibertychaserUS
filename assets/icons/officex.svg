@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="OfficeX — Three-track Document Verification">
+  <rect x="3" y="3" width="42" height="42" rx="8" fill="#F5F1E8" stroke="#2B2925" stroke-width="1.5"/>
+  <!-- Document sheet -->
+  <path d="M 13 9 L 29 9 L 35 15 L 35 39 L 13 39 Z" fill="#FAF7F0" stroke="#1F1E1B" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 29 9 L 29 15 L 35 15" fill="none" stroke="#1F1E1B" stroke-width="1.4"/>
+  <!-- Three verification tracks: structural / visual / semantic -->
+  <line x1="17" y1="21" x2="27" y2="21" stroke="#1F1E1B" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="17" y1="27" x2="27" y2="27" stroke="#1F1E1B" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="17" y1="33" x2="27" y2="33" stroke="#1F1E1B" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="31" cy="21" r="1.7" fill="#2E6B4E"/>
+  <circle cx="31" cy="27" r="1.7" fill="#2E6B4E"/>
+  <circle cx="31" cy="33" r="1.7" fill="#2E6B4E"/>
+</svg>

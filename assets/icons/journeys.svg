@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="100 Journeys — Open Doors Keep Their Light">
+  <rect x="3" y="3" width="42" height="42" rx="8" fill="#F5F1E8" stroke="#2B2925" stroke-width="1.5"/>
+  <!-- Warm inner light -->
+  <path d="M 15 37 L 15 21 A 9 9 0 0 1 33 21 L 33 37 Z" fill="#E5A93C" fill-opacity="0.65">
+    <animate attributeName="fill-opacity" values="0.75;0.3;0.75" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <!-- Spilled light on floor -->
+  <polygon points="15,37 33,37 38,42 10,42" fill="#E5A93C" fill-opacity="0.35"/>
+  <!-- Arch frame & ajar door leaf -->
+  <path d="M 15 37 L 15 21 A 9 9 0 0 1 33 21 L 33 37" fill="none" stroke="#1F1E1B" stroke-width="1.7"/>
+  <path d="M 15 37 L 15 21 L 22 17 L 22 33 Z" fill="#2B2925" fill-opacity="0.85"/>
+  <line x1="9" y1="37" x2="39" y2="37" stroke="#1F1E1B" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

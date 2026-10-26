@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="AIOps — Forge and Overlay">
+  <rect x="3" y="3" width="42" height="42" rx="8" fill="#F5F1E8" stroke="#2B2925" stroke-width="1.5"/>
+  <!-- Git branch & human merge gate -->
+  <line x1="15" y1="12" x2="15" y2="36" stroke="#1F1E1B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 15 18 C 24 18, 25 22, 31 26" fill="none" stroke="#1F1E1B" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Active check vs Blocked drop -->
+  <circle cx="15" cy="14" r="3" fill="#FAF7F0" stroke="#1F1E1B" stroke-width="1.6"/>
+  <circle cx="15" cy="34" r="3" fill="#2E6B4E"/>
+  <rect x="27" y="23" width="8" height="8" rx="1.5" fill="#FAF7F0" stroke="#B03A2E" stroke-width="1.6"/>
+</svg>
