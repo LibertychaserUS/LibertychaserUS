@@ -92,3 +92,13 @@
     </tr>
   </tbody>
 </table>
+
+### Contribution activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contributions.svg" />
+    <img alt="Contribution calendar for the last twelve months, redrawn daily" src="./assets/contributions.svg" width="100%" />
+  </picture>
+</p>

@@ -29,6 +29,10 @@ jobs:
         run: |
           if [ -z "$CONTRIBUTIONS_12M" ]; then unset CONTRIBUTIONS_12M; fi
           python scripts/update_banner.py
+      - name: Draw the contribution calendar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/contributions.py
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
